@@ -1,4 +1,6 @@
-# React + Vite + Tailwind CSS
+# Dhruva Astro
+
+
 
 A modern React application setup with Vite as the build tool and Tailwind CSS for styling.
 
@@ -54,7 +56,7 @@ npm run preview
 ## Project Structure
 
 ```
-react-vite-tailwind/
+DHRUVA_ASTRO/
 ├── public/
 ├── src/
 │   ├── App.jsx          # Main App component
