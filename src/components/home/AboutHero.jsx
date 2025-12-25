@@ -13,7 +13,7 @@ const AboutHero = () => {
                         initial={{ opacity: 0, y: -20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-6xl md:text-8xl lg:text-9xl font-black text-white tracking-wide mb-12 md:mb-20 text-left"
+                        className="text-6xl md:text-8xl lg:text-9xl font-black text-white tracking-wide mb-12 md:mb-20 md:text-left"
                     >
                         ABOUT US.
                     </motion.h1>
@@ -50,7 +50,7 @@ const AboutHero = () => {
                 </div>
 
                 <motion.div
-                    className="absolute -bottom-20 -right-20 md:-bottom-32 md:-right-10 w-[150px] h-[150px] md:w-[250px] md:h-[250px] z-30 pointer-events-none"
+                    className="absolute -bottom-20 right-2 md:-bottom-32 md:-right-10 w-[150px] h-[150px] md:w-[250px] md:h-[250px] z-30 pointer-events-none"
                     animate={{ rotate: -360 }}
                     transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
                 >
