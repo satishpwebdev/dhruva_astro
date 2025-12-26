@@ -6,7 +6,7 @@ const RecentEvents = () => {
     return (
         <section className="py-2 relative w-full">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl md:text-4xl font-lemon text-white mb-8 tracking-wider">
+                <h2 className="text-md md:text-4xl font-lemon text-white  mb-2 md:mb-8 tracking-wider">
                     RECENT EVENTS
                 </h2>
 

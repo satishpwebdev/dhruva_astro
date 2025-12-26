@@ -22,7 +22,7 @@ const Hero = () => {
                         LET'S TRAVEL TO THE EDGE
                         OF SPACE
                     </h1>
-                    <p className="text-gray-300 text-[10px] sm:text-sm md:text-xl max-w-3xl mb-4 md:mb-10 leading-relaxed text-white font-bold transition-colors shadow-[0_0_0px_rgba(255,255,255,0.5)]">
+                    <p className="text-[10px] sm:text-sm md:text-xl max-w-3xl mb-4 md:mb-10 leading-relaxed text-white font-bold transition-colors shadow-[0_0_0px_rgba(255,255,255,0.5)]">
                         We are a group that love to explore and learn new information related to our universe.
                         Join us and Explore
                     </p>
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
             <motion.div
-                className="absolute bottom-0 md:-right-10 w-[190px] h-[190px] sm:w-[180px] sm:h-[180px] md:bottom-2 md:right-40 md:w-[280px] md:h-[280px] z-10 opacity-90 pointer-events-none"
+                className="absolute bottom-0  w-[190px] h-[190px] sm:w-[180px] sm:h-[180px] md:bottom-2 md:right-40 md:w-[280px] md:h-[280px] z-10 opacity-90 pointer-events-none"
                 animate={{ rotate: -360 }}
                 transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
             >

@@ -9,7 +9,7 @@ const EventRecent = () => {
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative">
 
                 <div className="text-center mb-12">
-                    <h2 className="text-xl md:text-5xl font-lemon text-white tracking-[0.2em] uppercase">
+                    <h2 className="text-lg md:text-5xl font-lemon text-white tracking-[0.2em] uppercase">
                         RECENT EVENTS
                     </h2>
                 </div>
@@ -50,7 +50,7 @@ const EventRecent = () => {
                         />
 
                     </motion.div>
-                    <div className="absolute bottom-[-10px] md:right-2 sm:bottom-0 right-1 text-left w-[90%] md:w-1/2 h-auto md:h-auto md:bottom-10 md:-right-20 bg-white/30 backdrop-blur-sm p-4 md:p-10 text-white border border-white/10 z-30">
+                    <div className="absolute bottom-[-10px] sm:bottom-0 right-1 text-left w-[90%] md:w-1/2 h-auto md:h-auto md:bottom-10 md:-right-20 bg-white/30 backdrop-blur-sm p-4 md:p-10 text-white border border-white/10 z-30">
                         <span className="text-[10px] sm:text-xs md:text-sm font-medium tracking-wide block mb-1 md:mb-3 text-gray-300">18/06/2023</span>
                         <h3 className="text-base sm:text-xl md:text-4xl font-lemon font-bold leading-tight mb-2 md:mb-4">
                             TALK ON DARK MATTER

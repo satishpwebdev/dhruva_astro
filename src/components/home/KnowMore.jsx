@@ -4,7 +4,7 @@ import Dhruva from '../../assets/images/dhruva_final.png'
 
 const KnowMore = () => {
     return (
-        <section className="py-24 relative w-full overflow-hidden">
+        <section className=" py-6 md:py-24 relative w-full overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -12,7 +12,7 @@ const KnowMore = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16 md:mb-24"
                 >
-                    <h2 className="text-xl md:text-2xl font-lemon text-white tracking-[0.2em] uppercase">
+                    <h2 className="text-lg md:text-2xl font-lemon text-white tracking-[0.2em] uppercase">
                         KNOW MORE ABOUT US HERE
                     </h2>
                 </motion.div>
@@ -57,7 +57,7 @@ const KnowMore = () => {
                     transition={{ delay: 0.4, duration: 0.8 }}
                     className="text-center"
                 >
-                    <p className="text-lg md:text-xl font-lemon font-bold text-white tracking-wide uppercase max-w-7xl mx-auto">
+                    <p className="text-md md:text-xl font-lemon font-bold text-white tracking-wide uppercase max-w-7xl mx-auto">
                         "ASTRONOMY COMPELS THE SOUL TO LOOK UPWARDS AND LEADS US FROM THIS WORLD TO ANOTHER"
                     </p>
                 </motion.div>

@@ -4,7 +4,7 @@ import EventHeroImg from '../../assets/images/EventHero.png';
 
 const EventHero = () => {
     return (
-        <section className="relative w-full py-16 px-4 sm:px-6 lg:px-24 flex justify-center items-center">
+        <section className="relative w-full py-8 md:py-16 px-4 sm:px-6 lg:px-24 flex justify-center items-center">
             <div className="relative w-full max-w-6xl aspect-[16/9] md:aspect-[2.4/1] bg-gray-900 shadow-2xl overflow-hidden">
                 <img
                     src={EventHeroImg}
